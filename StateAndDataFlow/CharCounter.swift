@@ -9,7 +9,7 @@ class CharCounter: ObservableObject {
     
      func changeColor(with name: String) -> Color {
         var color: Color
-        if name.count <= 3 {
+         if (0...2).contains(name.count) {
             color = .red
         } else {
             color = .green
@@ -19,7 +19,7 @@ class CharCounter: ObservableObject {
     
     func activeButton(with name: String) -> Bool {
         var focus: Bool
-        if (0...3).contains(name.count) {
+        if (0...2).contains(name.count) {
             focus = true
         } else {
             focus = false
