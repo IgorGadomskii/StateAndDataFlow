@@ -1,9 +1,4 @@
-//
-//  CharCounter.swift
-//  StateAndDataFlow
-//
-//  Created by Macbook on 11.05.2022.
-//
+
 
 import Foundation
 import Combine
